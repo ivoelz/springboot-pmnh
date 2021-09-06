@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Prepare</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<img th:src="@{/static/steam.jpg}" alt="Steam wand being purged, creating steam">
+<h2>
+    1. Prepare Before Steaming
+</h2>
+<p>
+    First you'll want to purge your steam wand. This means turning on your steam wand
+    and letting it remove water and any build up in the wand. This makes a big difference in the consistency of the
+    milk.
+</p>
+<p>
+    Now pour your milk into your steam pitcher up to how ever many ounces you need. Make sure your milk is cold, cold
+    milk
+    is better to steam with because it gives you time to create the perfect texture of the milk.
+</p>
+<p>
+    Now you are ready to steam!
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

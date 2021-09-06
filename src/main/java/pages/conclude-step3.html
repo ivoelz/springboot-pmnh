@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Concluding and Pouring</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<img th:src="@{/static/pour.jpg}" alt="Barista pouring milk into espresso">
+<h2>
+    3. Time to Pour
+</h2>
+<p>
+    Your milk is almost ready to pour! But first you must tap the steam pitcher on the counter a few times to get
+    ride of any unwanted big bubbles. Now swirl your milk to make sure it is as homogenous as possible.
+</p>
+<p>
+    Now you may pour your milk into your cup with espresso, syrups...anything you'd like!
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

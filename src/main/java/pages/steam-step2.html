@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Steam</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<img th:src="@{/static/milk.jpg}" alt="Steam wand in a steam pitcher">
+<h2>
+    2. Steaming the Milk
+</h2>
+<p>
+    Now that you have your milk in your steam pitcher, brin git up to the steam pitcher. You should place the wand just
+    below the surface of the milk.
+</p>
+<p>
+    You can now turn on the steam wand. If your milk is making a screeching noise, simply pull the wand out a bit and
+    place it back in to
+    let the air escape.
+</p>
+<p>
+    Once your milk reaches 120-140 fahrenheit, you can turn off the steam wand. Now you can prepare to pour!
+</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>

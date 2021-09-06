@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<body>
+<header th:fragment="header">
+    <nav>
+        <ul>
+            <li><a th:href="@{/prepare/step1}">Prepare Milk</a></li>
+            <li><a th:href="@{/steam/step2}">Steam Milk</a></li>
+            <li><a th:href="@{/conclude/step3}">Pour Milk</a></li>
+            <li><a th:href="@{/redirect-me}">Redirect</a></li>
+            <li><a th:href="@{/forward-me}">Forward</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>
